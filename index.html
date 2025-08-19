@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Banner - Scalable on Zoom</title>
     <style>
-      /* Reset and global styles */
+      /* ===============================
+         Reset & Global Styles
+      =============================== */
       * {
         box-sizing: border-box;
         margin: 0;
@@ -24,6 +26,9 @@
         margin-bottom: 1rem;
       }
 
+      /* ===============================
+         Typography
+      =============================== */
       h1 {
         font-size: 2.5rem;
       }
@@ -40,6 +45,9 @@
         margin-bottom: 2rem;
       }
 
+      /* ===============================
+         Buttons
+      =============================== */
       button {
         background-color: #42c3dc;
         color: #130d29;
@@ -56,7 +64,9 @@
         background-color: #2980b9;
       }
 
-      /* Hero Banner */
+      /* ===============================
+         Hero Banner Layout
+      =============================== */
       .heroBanner {
         width: 100%;
         background-color: #130d29;
@@ -94,7 +104,9 @@
           center/cover no-repeat;
       }
 
-      /* Responsive adjustments */
+      /* ===============================
+         Responsive Styles
+      =============================== */
       @media (max-width: 900px) {
         .heroBannerContents {
           grid-template-columns: 1fr;
@@ -120,16 +132,17 @@
         h1 {
           font-size: 2rem;
         }
-
         h2 {
           font-size: 1.5rem;
         }
       }
     </style>
   </head>
+
   <body>
     <div class="heroBanner">
       <div class="heroBannerContents">
+        <!-- Text Content -->
         <div class="contents">
           <h1>Title goes here</h1>
           <h2>Subheading</h2>
@@ -140,6 +153,8 @@
           </p>
           <button>Check your eligibility</button>
         </div>
+
+        <!-- Image Content -->
         <div class="imageContainer">
           <div class="backgroundImage"></div>
         </div>
